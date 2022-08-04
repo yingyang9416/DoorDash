@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController" customModule="DoorDash" customModuleProvider="target">
+            <connections>
+                <outlet property="handleArea" destination="vWa-1I-Szz" id="naR-Tc-rcs"/>
+                <outlet property="handleBar" destination="4rt-c9-0tK" id="vJz-AK-LRl"/>
+                <outlet property="tableView" destination="gkr-9f-dat" id="PsP-ye-H7x"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="707" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWa-1I-Szz">
+                    <rect key="frame" x="0.0" y="0.0" width="707" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rt-c9-0tK">
+                            <rect key="frame" x="323.5" y="18" width="60" height="4"/>
+                            <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="A10-ap-Fts"/>
+                                <constraint firstAttribute="width" constant="60" id="cxJ-Ph-jFy"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="4rt-c9-0tK" firstAttribute="centerX" secondItem="vWa-1I-Szz" secondAttribute="centerX" id="KJE-6L-Qgv"/>
+                        <constraint firstAttribute="height" constant="40" id="SWP-ZG-uVu"/>
+                        <constraint firstItem="4rt-c9-0tK" firstAttribute="centerY" secondItem="vWa-1I-Szz" secondAttribute="centerY" id="pZu-YJ-gYk"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gkr-9f-dat">
+                    <rect key="frame" x="0.0" y="40" width="707" height="772"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vWa-1I-Szz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="If3-2G-ukr"/>
+                <constraint firstAttribute="bottom" secondItem="gkr-9f-dat" secondAttribute="bottom" id="Yuh-Lp-ONg"/>
+                <constraint firstAttribute="trailing" secondItem="gkr-9f-dat" secondAttribute="trailing" id="ZDN-Rc-Fdl"/>
+                <constraint firstAttribute="trailing" secondItem="vWa-1I-Szz" secondAttribute="trailing" id="dsM-GT-Ccm"/>
+                <constraint firstItem="gkr-9f-dat" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hIa-bg-eIN"/>
+                <constraint firstItem="gkr-9f-dat" firstAttribute="top" secondItem="vWa-1I-Szz" secondAttribute="bottom" id="kjw-Ow-9XZ"/>
+                <constraint firstItem="vWa-1I-Szz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vWM-al-Uhy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="641.304347826087" y="4.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeRestaurantCollectionViewCell" customModule="DoorDash" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="210"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tacoBell" translatesAutoresizingMaskIntoConstraints="NO" id="Px6-XW-hsb">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="k96-oR-9VZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taco Bell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWN-xz-ywv">
+                        <rect key="frame" x="0.0" y="130" width="319" height="21"/>
+                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.7 mi • 24 min • $ 3.99 delivery fee " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-97-FSK">
+                        <rect key="frame" x="0.0" y="156" width="319" height="19.5"/>
+                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                        <color key="textColor" name="DDGrey"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XB6-po-6Hm">
+                        <rect key="frame" x="0.0" y="180.5" width="21" height="20"/>
+                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                        <color key="textColor" name="DDGrey"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="plV-uk-oSR">
+                        <rect key="frame" x="23" y="184" width="13" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="DcB-oX-Dg6"/>
+                            <constraint firstAttribute="height" constant="13" id="LV8-s9-ino"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(195)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qjp-S2-2N1">
+                        <rect key="frame" x="41" y="180.5" width="37" height="20"/>
+                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                        <color key="textColor" name="DDGrey"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nhQ-1l-0zV">
+                        <rect key="frame" x="289" y="132" width="20" height="17.5"/>
+                        <color key="tintColor" name="DDGrey"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="NIv-mB-ySd"/>
+                            <constraint firstAttribute="height" constant="20" id="z8H-Hk-KmY"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="XB6-po-6Hm" firstAttribute="top" secondItem="qHz-97-FSK" secondAttribute="bottom" constant="5" id="2bc-th-iKI"/>
+                <constraint firstAttribute="trailing" secondItem="nhQ-1l-0zV" secondAttribute="trailing" constant="10" id="2eQ-qy-2gf"/>
+                <constraint firstItem="qHz-97-FSK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2uv-SH-Leh"/>
+                <constraint firstItem="XB6-po-6Hm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2xt-VL-Mrh"/>
+                <constraint firstItem="plV-uk-oSR" firstAttribute="leading" secondItem="XB6-po-6Hm" secondAttribute="trailing" constant="2" id="9W1-ge-DhB"/>
+                <constraint firstItem="Px6-XW-hsb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EAl-LM-1bR"/>
+                <constraint firstItem="Qjp-S2-2N1" firstAttribute="centerY" secondItem="XB6-po-6Hm" secondAttribute="centerY" id="N4M-st-vr7"/>
+                <constraint firstItem="qWN-xz-ywv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Spx-ib-tFg"/>
+                <constraint firstItem="nhQ-1l-0zV" firstAttribute="centerY" secondItem="qWN-xz-ywv" secondAttribute="centerY" id="Y3b-TE-DOd"/>
+                <constraint firstItem="Px6-XW-hsb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Z2z-7K-9we"/>
+                <constraint firstItem="qHz-97-FSK" firstAttribute="top" secondItem="qWN-xz-ywv" secondAttribute="bottom" constant="5" id="dfh-dr-ERb"/>
+                <constraint firstAttribute="trailing" secondItem="Px6-XW-hsb" secondAttribute="trailing" id="fLZ-Ux-4J9"/>
+                <constraint firstItem="plV-uk-oSR" firstAttribute="centerY" secondItem="XB6-po-6Hm" secondAttribute="centerY" id="kN8-R0-OEW"/>
+                <constraint firstItem="Qjp-S2-2N1" firstAttribute="leading" secondItem="plV-uk-oSR" secondAttribute="trailing" constant="5" id="ktL-C8-Jts"/>
+                <constraint firstAttribute="trailing" secondItem="qHz-97-FSK" secondAttribute="trailing" id="q0o-8b-P1U"/>
+                <constraint firstAttribute="trailing" secondItem="qWN-xz-ywv" secondAttribute="trailing" id="rVF-bH-Ory"/>
+                <constraint firstItem="qWN-xz-ywv" firstAttribute="top" secondItem="Px6-XW-hsb" secondAttribute="bottom" constant="10" id="wd4-mo-Q2Y"/>
+            </constraints>
+            <size key="customSize" width="319" height="210"/>
+            <connections>
+                <outlet property="imageView" destination="Px6-XW-hsb" id="0G8-b2-P8f"/>
+                <outlet property="infoLabel" destination="qHz-97-FSK" id="Qwo-8f-Ppe"/>
+                <outlet property="nameLabel" destination="qWN-xz-ywv" id="jJY-M5-1TA"/>
+                <outlet property="numberOfRatingsLabel" destination="Qjp-S2-2N1" id="jzw-1m-KX2"/>
+                <outlet property="ratingLabel" destination="XB6-po-6Hm" id="DbD-aG-F69"/>
+            </connections>
+            <point key="canvasLocation" x="326.81159420289856" y="131.91964285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="star" width="15" height="15"/>
+        <image name="tacoBell" width="339" height="190.5"/>
+        <namedColor name="DDGrey">
+            <color red="0.46299999952316284" green="0.46299999952316284" blue="0.46299999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
